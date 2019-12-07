@@ -5,6 +5,6 @@ void mx_matrix_voice(void) {
     write(1, b, 1);
 }
 
-int main () {
+/* int main () {
     mx_matrix_voice();
-}
+} */
