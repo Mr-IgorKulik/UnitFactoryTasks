@@ -5,7 +5,7 @@ void mx_is_positive(int i) {
     if (i == 0) {
         mx_printstr("zero");
     }
-    else if (i%2 == 0)
+    else if (i > 0)
     {
         mx_printstr("positive");
     }
