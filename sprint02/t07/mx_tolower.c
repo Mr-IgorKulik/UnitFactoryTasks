@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 
 int mx_tolower(int c) {
     if(c >= 97 && c <= 122) {
@@ -11,7 +11,7 @@ int mx_tolower(int c) {
     
 }
 
-int main () {
+/* int main () {
     printf("%c", mx_tolower('a'));
     printf("%c", mx_tolower('A'));
-}
+} */
