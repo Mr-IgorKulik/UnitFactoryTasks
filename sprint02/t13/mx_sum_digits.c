@@ -1,4 +1,4 @@
-#include <stdio.h>
+/* #include <stdio.h> */
 
 int mx_sum_digits(int num) {
     int res = 0;
@@ -11,7 +11,7 @@ int mx_sum_digits(int num) {
     return res;
 }
 
-int main() {
+/* int main() {
     printf("%d\n", mx_sum_digits(435));
     printf("%d\n", mx_sum_digits(-555));
-}
+} */
