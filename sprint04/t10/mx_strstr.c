@@ -1,4 +1,4 @@
-#include <stdio.h>
+/* #include <stdio.h> */
 #include "mx_strncmp.c"
 #include "mx_strchr.c"
 #include "mx_strlen.c"
@@ -18,8 +18,8 @@ char *mx_strstr(const char *s1, const char *s2) {
     return NULL;
 } 
 
-int main() {
+/* int main() {
     char str1[] = "Hello! It's me!";
     char str2[] = "It's";
     printf("%s\n", mx_strstr(str1, str2));
-}
+} */
