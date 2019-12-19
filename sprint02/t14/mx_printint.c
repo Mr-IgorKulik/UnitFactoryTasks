@@ -4,6 +4,8 @@
 
 void mx_printint(int n){
     int count = 0; 
+
+    if(n == 0) mx_printchar('0');
     
     bool flag = true;
     if(n < 0) {
