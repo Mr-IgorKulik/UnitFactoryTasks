@@ -1,4 +1,4 @@
-#include <stdio.h>
+/* #include <stdio.h> */
 
 int mx_factorial_iter(int n) {
     int res = 1;
@@ -16,9 +16,9 @@ int mx_factorial_iter(int n) {
     return res;
 }
 
-int main() {
+/* int main() {
     printf("%d\n", mx_factorial_iter(0));
     printf("%d\n", mx_factorial_iter(2));
     printf("%d\n", mx_factorial_iter(10));
     printf("%d\n", mx_factorial_iter(-1));
-}
+} */
