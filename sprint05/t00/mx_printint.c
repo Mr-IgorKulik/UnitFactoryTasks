@@ -4,6 +4,8 @@
 
 void mx_printint(int n){
     int count = 0; 
+
+    if(n == 0) mx_printchar('0');
     
     bool flag = true;
     if(n < 0) {
@@ -11,7 +13,22 @@ void mx_printint(int n){
         n = 0 - n;
     }
 
-    int num = n; 
+    int num = n;
+
+    if (num%10 == 0) {
+        int c = 0;
+        while (num >= 10) {
+            c++;
+            num /= 10;
+        }
+
+        mx_printchar(num + 48);
+        for (int i = 0; i < c; i++) {
+            mx_printchar(48);
+        }
+    } 
+
+    num = n;
 
     while (num%10 > 0) {
         count++;
@@ -43,9 +60,9 @@ void mx_printint(int n){
 }
 
 /* int main() {
-    mx_printint(25);
+    mx_printint(0);
     mx_printchar('\n');
     mx_printint(-25);
     mx_printchar('\n');
-    mx_printint(2147483647);
+    mx_printint(-2147483648);
 } */
