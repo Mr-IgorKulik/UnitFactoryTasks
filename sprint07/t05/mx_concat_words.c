@@ -24,6 +24,7 @@ char *mx_concat_words(char **words) {
         if (i != wordsCount - 1) resStr = mx_strjoin(resStr, " ");
     }
 
+    mx_strdel(words);
     return resStr;
 }
 
